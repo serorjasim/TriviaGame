@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+</head>
+
+<body>
+    <h1>Sports Trivia!</h1>
+    <button id="start">Start</button>
+    <div id="timer"></div>
+
+    <form name="quiz" method="post" name="buttons" id="quiz" onsubmit="return false">
+
+        <li>
+            <div class="question">Who won the world cup in 2002?</div>
+        </li>
+        <input id="answer" type="radio" name="group1" value="correct"> Brazil
+        <br>
+        <input id="answer" type="radio" name="group1" value="wrong"> Germany
+        <br>
+        <input id="answer" type="radio" name="group1" value="wrong"> Argentina
+        <hr>
+
+        <li>
+            <div class="question">How many championships does Kobe Bryant have?</div>
+        </li>
+        <input id="answer" type="radio" name="group2" value="wrong">3
+        <br>
+        <input id="answer" type="radio" name="group2" value="wrong">4
+        <br>
+        <input id="answer" type="radio" name="group2" value="correct">5
+        <hr>
+
+        <li>
+            <div class="question">Who is the New England Patriots quarterback?</div>
+        </li>
+        <input id="answer" type="radio" name="group3" value="wrong">Aaron Rodgers
+        <br>
+        <input id="answer" type="radio" name="group3" value="wrong">Mike Pence
+        <br>
+        <input id="answer" type="radio" name="group3" value="correct">Tom Brady
+        <hr>
+
+        <li>
+            <div class="question">Who won the 2017 World Series?</div>
+        </li>
+        <input id="answer" type="radio" name="group3" value="correct">Houston Astros
+        <br>
+        <input id="answer" type="radio" name="group3" value="wrong">New York Yankees
+        <br>
+        <input id="answer" type="radio" name="group3" value="wrong">LA Dogers
+        <hr>
+
+        <li>
+            <div class="question">Who has the most UEFA champions league titles?</div>
+        </li>
+        <input id="answer" type="radio" name="group3" value="wrong">Barcelona
+        <br>
+        <input id="answer" type="radio" name="group3" value="correct">Real Madrid
+        <br>
+        <input id="answer" type="radio" name="group3" value="wrong">AC Milan
+        <hr>
+
+        <button class="submit" onclick="return handleClick();" type="submit">Submit</button>
+
+    </form>
+</body>
+
+</html>

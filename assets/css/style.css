@@ -1,0 +1,33 @@
+* {
+  background-image: url("http://spacecoastsports.com/wp-content/uploads/2014/06/sportsballs1.png");
+  background-size: 400px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 70px;
+  color: blue;
+}
+
+#start {
+  position: relative;
+  margin-left: 475px;
+  color: fuchsia;
+  background-color: dimgray;
+  font-size: 80px;
+  padding: 10px 80px;
+}
+
+#quiz {
+  text-align: center;
+  font-size: 40px;
+  color: red;
+}
+
+.submit {
+  color: blue;
+  background-color: gray;
+  font-size: 60px;
+  padding: 10px 50px;
+}
